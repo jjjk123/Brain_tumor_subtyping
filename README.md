@@ -1,6 +1,18 @@
 # Brain_tumor_subtyping
 
-# References
+## Introduction
+
+## Methods
+
+TCGA / GEO
+
+methylumi
+
+MethPed
+
+## Results
+
+## References
 
 1. Davis S, Du P, Bilke S, Triche, Jr. T, Bootwalla M (2022). methylumi: Handle Illumina methylation data. R package version 2.44.0.
 
