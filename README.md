@@ -18,13 +18,15 @@
 
 ## Introduction
 
-Brain tumors can be classified into different subtypes to recommend a patient-specific treatment. Characterization of patients into groups based on molecular features can help clinicians to choose proper medications for each individual and to improve the outcome of the treatment.
+Classifying pediatric brain tumors into molecular subtypes profoundly determines appropriate treatment options selection as well as patients’ survival prediction.
 
-Various classification tools for tumors of the central nervous system have been developed. For instance, MethPed  is an open-access classifier which uses DNA methylation as an epigenetic marker for subtype classification.
+Therefore, it is of great importance to efficiently classify patients into specific subgroups depending on their epigenome’s molecular characteristics- one of which, playing a pivotal role, is their methylation profile. 
+To achieve that, we validated the efficiency of Methped. Methped is an already-developed, open-access tool for brain tumor diagnosis and subgroup identification. Via analyzing genome-wide DNA methylation array data, Methped is able to accurately classify a brain tumor to one of the 9 most prevalent pediatric brain tumor clinical groups.
+These 9 groups consist of: pilocytic astrocytoma, high-grade glioma/glioblastoma (GBM), diffuse intrinsic pontine glioma (DIPG), ependymoma, and primitive neuroectodermal tumor of the CNS (CNS-PNET), medulloblastoma (cerebellar PNET) or supratentorial PNET (sPNET). 
 
-The goal of the project is to develop of a data analysis workflow to analyze publicly-available epigenetic data of brain tumor patients from databases, such as The Cancer Genome Atlas.
+The goal of the project is to develop a data analysis workflow to analyze publicly-available epigenetic data of brain tumor patients from various databases, such as The Cancer Genome Atlas and Gene Expression Omnibus.
 
-Future work will include subtype-specific drug recommendations. Further research can also be extended from brain tumors into tumors of the nervous system.
+Future work will include subtype-specific drug recommendations. Further research can also be extended from pediatric brain tumors into adult tumors of the nervous system.
 
 
 ## Methods
