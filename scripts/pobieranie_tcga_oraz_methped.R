@@ -11,6 +11,7 @@ GenomicDataCommons::status()
 ge_manifest <- files() |>
   filter( cases.project.project_id == 'TCGA-GBM') |>
   filter( type == 'methylation_beta_value' ) |>
+  filter(cases.demographic.days_to_birth < -60*365) |> # filtrowanie wieku PAMIĘTAĆ O MINUSIE
   manifest()
 ge_manifest
 # ge_manifest zawiera informacje o plikach ale jeszcze nie dane
