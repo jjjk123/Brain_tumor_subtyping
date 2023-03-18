@@ -7,7 +7,7 @@
 ## Contributors
 
 - Jędrzej Kubica (jj.kubica@student.uw.edu.pl)
-- Barczuk Julia (julia.barczuk@stud.umed.lodz.pl)
+- Julia Barczuk  (julia.barczuk@stud.umed.lodz.pl)
 - Justyna Wiśniewska (j.wisniewska@nencki.edu.pl)
 - Katarzyna Grad (k.grad@student.uw.edu.pl)
 - Milena Królikowska (mm.krolikows@uw.edu.pl)
