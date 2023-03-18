@@ -4,7 +4,15 @@
 
 ## Methods
 
-TCGA / GEO
+Methylation data for pediatric (< 18 y/o) patients with brain tumors from TCGA and GEO.
+
+TCGA
+
+Case 1 (ID: TCGA-12-1091)
+Case 2 (ID: TCGA-HT-7483)
+Case 3 (ID: TCGA-DB-5278)
+
+GEO
 
 methylumi
 
