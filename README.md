@@ -1,7 +1,6 @@
-<img width="700" alt="brainhack2023_logo" src="https://user-images.githubusercontent.com/82537630/226144785-7b7856c4-9431-404c-b38e-1bbb06694c89.png">
-
-
 # *Project 1: Brain tumor subtyping*
+
+<img width="700" alt="brainhack2023_logo" src="https://user-images.githubusercontent.com/82537630/226144785-7b7856c4-9431-404c-b38e-1bbb06694c89.png">
 
 
 
