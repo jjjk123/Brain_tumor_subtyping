@@ -1,6 +1,6 @@
 > # Brainhack 2023
 
-# Brain tumor subtyping
+# Project 1: Brain tumor subtyping
 
 
 
