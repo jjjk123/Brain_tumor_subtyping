@@ -27,7 +27,7 @@ head(example)
 # trzeba zmienić nazwę kolumny V1 na TargetID - tak wymaga MethPed
 # nazwa drugiej kolumny jest nieistotna dla MethPed ale może być przydatna do dalszej analizy
 example = dplyr::rename(example, c('TargetID' = 'V1'))
-example$id = rep(names(fnames[[1]]), nrow(example))
+MethPed::MethPed(example)
 
 # wczytanie i połączenie wszystkich danych do postaci, którą można wrzucić do MethPed
 data = data.frame(TargetID = character(), V2 = numeric(), id = character())
