@@ -47,7 +47,7 @@ We have decided to use MethPed to examine how such tools work with different dat
 
 ## Results
 
-Case 1 (ID: TCGA-12-1091)
+### Case 1 (ID: TCGA-12-1091)
 
 Primary diagnosis: glioblastoma
 
@@ -59,7 +59,7 @@ The result confirms the primary diagnosis given by the clinician.
 
 OOB error rate = 7.460036
 
-Case 2 (ID: TCGA-HT-7483)
+### Case 2 (ID: TCGA-HT-7483)
 
 Primary diagnosis: Brain Lower Grade Glioma
 
@@ -71,7 +71,7 @@ The result also confirms the primary diagnosis given by the clinician.
 
 OOB error rate = 1.776199 
 
-Case 3 (ID: TCGA-DB-5278)
+### Case 3 (ID: TCGA-DB-5278)
 
 Primary diagnosis: Brain Lower Grade Glioma
 
@@ -83,7 +83,7 @@ The result suggests that additional test might be useful to confirm the diagnosi
 
 OOB error rate = 2.131439
 
-Case 4 (GEO Accession: GSM7068256)
+### Case 4 (GEO Accession: GSM7068256)
 
 Primary diagnosis: pediatric brain tumor
 
