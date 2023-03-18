@@ -101,7 +101,7 @@ OOB error rate: 1.953819
 
 ## Discussion
 
-We validated an open-source software MethPed as a potentially useful tool for clinical application. However the result might require additional confirmation.
+In the project, we validated an open-source software MethPed as a potentially useful tool for clinical application. Although some results might require additional confirmation, however MethPed could serve as a confirmation test for the primary diagnosis.
 
 ## Script for automation
 We've create script for automation.
@@ -124,6 +124,13 @@ if (is.null(probeMis(data))){
   methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = FALSE)
 }
 ```
+## Future ideas
+
+- adults
+- other brain tumor subtypes
+- treatment recommendation
+
+
 ## References
 
 1. Ahamed M, Danielsson A, Nemes S, Carén H (2022). MethPed: A DNA methylation classifier tool for the identification of pediatric brain tumor subtypes. R package version 1.26.0.
