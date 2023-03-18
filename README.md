@@ -63,6 +63,11 @@ Case 3 (ID: TCGA-DB-5278)
 
 OOB error rate = 2.131439
 
+Case 4 (GEO Accession: GSM7068256)
+
+![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
+
+Case 4 (GEO Accession: GSM7068256)
 
 ## Discussion
 
