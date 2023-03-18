@@ -1,3 +1,0 @@
-id	filename	md5	size	state
-5fb96f09-28cf-4ee8-931a-82728d82b942	5fb96f09-28cf-4ee8-931a-82728d82b942/e83757d1-e52a-4919-813e-a38cccde2980.methylation_array.sesame.level3betas.txt	b31845af41aa90b33cf1eabc113411de	13159028	validated
-\N	5fb96f09-28cf-4ee8-931a-82728d82b942/annotations.txt	76ecf811c2f1fbc662e72fad962dfeb6	469	\N
