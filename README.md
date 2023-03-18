@@ -31,7 +31,7 @@ Future work will include subtype-specific drug recommendations. Further research
 
 ## Methods
 
-Methylation data for 3 pediatric (< 18 y/o) patients with brain tumors was used in the project (Case IDs: TCGA-12-1091, TCGA-HT-7483, TCGA-DB-5278).
+Methylation data for 4 pediatric (< 18 y/o) patients with brain tumors was used in the project (TCGA IDs: TCGA-12-1091, TCGA-HT-7483, TCGA-DB-5278; GEO Accession: GSM7068256).
 
 
 MethPed is an open-source tool for classification of pediatric brain tumours into clinically-relevant groups based on genome-wide methylation data. The algorithm was trained on a dataset of 400+ publicly available methylation data deposited at GEO, which included classification of the cancer into groups and subgroups. The data was merged into one dataset which included methylation degree result for probes present in all samples. It uses a Random Forest algorithm to group the data based on methylation of 100 probes which were selected with the use of regression analysis to fit classifier subgroups in an optimal way. For input data, MethPed calculates the probability of the sample belonging to each classifier group. The model was validated with methylation data acquired from frozen tissue samples, for which expert classification was already performed. 
