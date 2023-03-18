@@ -70,12 +70,34 @@ Case 4 (GEO Accession: GSM7068256)
 ![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
 
 OOB error rate: 1.953819
+##Script for automatization
+
 
 ## Discussion
 
 We validated an open-source software MethPed as a potentially useful tool for clinical application. However the result might require additional confirmation.
 
+## Script for automation
+We've create script for automation.
+Steps:
 
+1. Downloading filtered samples from specific dataset.
+```
+ge_manifest <- files() |>
+  filter( cases.project.project_id == 'TCGA-GBM') |>
+  filter( type == 'methylation_beta_value' ) |>
+  filter(cases.demographic.days_to_birth < -60*365) |>
+```
+You can change your desired parameteres such as: project ID of other dataset or age (in example is set to 60).
+
+2. It prepares it to run MethPed classification. For now there is an example with one sample(file).
+3. It runs MethPed classification with proccesed sample
+```
+library(MethPed)
+if (is.null(probeMis(data))){
+  methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = FALSE)
+}
+```
 ## References
 
 1. Ahamed M, Danielsson A, Nemes S, Carén H (2022). MethPed: A DNA methylation classifier tool for the identification of pediatric brain tumor subtypes. R package version 1.26.0.
