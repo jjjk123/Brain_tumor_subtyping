@@ -49,13 +49,19 @@ Case 1 (ID: TCGA-12-1091)
 
 ![plot_case1](https://user-images.githubusercontent.com/82537630/226108606-b0a8f2ed-dee2-4655-9fa8-95d932c27b68.png)
 
+OOB error rate = 7.460036
+
 Case 2 (ID: TCGA-HT-7483)
 
 <img width="443" alt="plot_case2" src="https://user-images.githubusercontent.com/82537630/226108613-2b06d866-0ab0-4fbc-a8be-15d77875abf4.png">
 
+OOB error rate = 1.776199 
+
 Case 3 (ID: TCGA-DB-5278)
 
 ![plot_case3](https://user-images.githubusercontent.com/82537630/226108621-1018492f-63bd-4b3f-be87-aa8fa88e874c.png)
+
+OOB error rate = 2.131439
 
 
 ## Discussion
