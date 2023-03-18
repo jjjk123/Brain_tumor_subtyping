@@ -41,6 +41,8 @@ The tool classifies pediatric brain tumours with great accuracy, allowing for gr
 
 We have decided to use MethPed to examine how such tools work with different datasets - if they correctly classify pediatric brain tumours when using methylation data from datasets not used to train the model, and if data originating from completely different cancers is not forcefully classified into pre-set categories. Having verified that our pipeline for data collection and package usage works as intended, we would like to try to develop a similar tool for analysis of gene expression in cancers of selected origin during future hackatons.
 
+## Workflow
+
 ![obraz](https://user-images.githubusercontent.com/61021185/226114491-bda9ca3f-a16f-4033-acf3-cfaf41d543e1.png)
 
 
