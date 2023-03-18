@@ -89,7 +89,7 @@ Primary diagnosis: pediatric brain tumor
 
 MethPed diagnosis: Medulloblastoma
 
-The result narrows down the diagnosis from 'pediatric brain tumor' to 'medulloblastoma', however it does not specify the subtype of medulloblastoma.
+The result narrows down the diagnosis from 'pediatric brain tumor' to 'medulloblastoma', however it does not specify any subtype of medulloblastoma.
 
 ![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
 
