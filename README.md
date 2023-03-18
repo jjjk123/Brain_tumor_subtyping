@@ -49,11 +49,23 @@ We have decided to use MethPed to examine how such tools work with different dat
 
 Case 1 (ID: TCGA-12-1091)
 
+Primary diagnosis: glioblastoma
+
+MethPed diagnosis: glioma/glioblastoma
+
+The result confirms the primary diagnosis given by the clinician.
+
 ![plot_case1](https://user-images.githubusercontent.com/82537630/226108606-b0a8f2ed-dee2-4655-9fa8-95d932c27b68.png)
 
 OOB error rate = 7.460036
 
 Case 2 (ID: TCGA-HT-7483)
+
+Primary diagnosis: Brain Lower Grade Glioma
+
+MethPed diagnosis: glioma/glioblastoma
+
+The result also confirms the primary diagnosis given by the clinician.
 
 <img width="443" alt="plot_case2" src="https://user-images.githubusercontent.com/82537630/226108613-2b06d866-0ab0-4fbc-a8be-15d77875abf4.png">
 
@@ -61,11 +73,23 @@ OOB error rate = 1.776199
 
 Case 3 (ID: TCGA-DB-5278)
 
+Primary diagnosis: Brain Lower Grade Glioma
+
+MethPed diagnosis: diffuse intrinsic pontine glioma
+
+The result suggests that additional test might be useful to confirm the diagnosis.
+
 ![plot_case3](https://user-images.githubusercontent.com/82537630/226108621-1018492f-63bd-4b3f-be87-aa8fa88e874c.png)
 
 OOB error rate = 2.131439
 
 Case 4 (GEO Accession: GSM7068256)
+
+Primary diagnosis: pediatric brain tumor
+
+MethPed diagnosis: Medulloblastoma
+
+The result narrows down the diagnosis from 'pediatric brain tumor' to 'medulloblastoma', however it does not specify the subtype of medulloblastoma.
 
 ![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
 
