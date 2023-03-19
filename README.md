@@ -31,7 +31,7 @@ Future work will include subtype-specific drug recommendations. Further research
 
 ## Methods
 
-Methylation data for 4 pediatric (< 18 y/o) patients with brain tumors was used in the project (TCGA IDs: TCGA-12-1091, TCGA-HT-7483, TCGA-DB-5278; GEO Accession: GSM7068256).
+Methylation data for 4 pediatric (< 18 y/o) patients with brain tumors was used in the project (TCGA IDs: TCGA-12-1091, TCGA-HT-7483, TCGA-DB-5278; GEO Accession: GSM7068256). Additionally, we modified the TCGA data search, so that it finds more samples for a given patient, thus improving the validity of the result. Data for case 5 (TCGA ID: TCGA-19-5959) contained 3 samples.
 
 
 MethPed is an open-source tool for classification of pediatric brain tumours into clinically-relevant groups based on genome-wide methylation data. The algorithm was trained on a dataset of 400+ publicly available methylation data deposited at GEO, which included classification of the cancer into groups and subgroups. The data was merged into one dataset which included methylation degree result for probes present in all samples. It uses a Random Forest algorithm to group the data based on methylation of 100 probes which were selected with the use of regression analysis to fit classifier subgroups in an optimal way. For input data, MethPed calculates the probability of the sample belonging to each classifier group. The model was validated with methylation data acquired from frozen tissue samples, for which expert classification was already performed. 
@@ -96,14 +96,16 @@ The result narrows down the diagnosis from 'pediatric brain tumor' to 'medullobl
 ![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
 
 OOB error rate: 1.953819
-### Case 4 (ID: TCGA-19-5959)
 
-![tumor](https://user-images.githubusercontent.com/103688816/226181437-01459903-2ca8-4f6e-9852-3e71dddad97c.png)
+### Case 5 (ID: TCGA-19-5959)
+
 Primary diagnosis: Glioblastoma Multiforme
 
 MethPed diagnosis: glioma/glioblastoma
 
+![tumor](https://user-images.githubusercontent.com/103688816/226181437-01459903-2ca8-4f6e-9852-3e71dddad97c.png)
 
+The result shows the same diagnosis for 3 different samples from the same patient. It can be assumed that more samples indicating the same diagnosis might serve as a confirmation of the final diagnosis.
 
 ## Discussion
 
