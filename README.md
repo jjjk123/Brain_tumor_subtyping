@@ -7,13 +7,13 @@
 ## Contributors
 
 - Jędrzej Kubica (jj.kubica@student.uw.edu.pl)
+- Urszula Baranowska (umbaranowska@gmail.com)
 - Julia Barczuk  (julia.barczuk@stud.umed.lodz.pl)
-- Justyna Wiśniewska (j.wisniewska@nencki.edu.pl)
+- Paulina Domek (p.domek68@gmail.com)
 - Katarzyna Grad (k.grad@student.uw.edu.pl)
 - Milena Królikowska (mm.krolikows@uw.edu.pl)
-- Paulina Domek (p.domek68@gmail.com)
-- Urszula Baranowska (umbaranowska@gmail.com)
 - Weronika Plichta (plichta.weronika@gmail.com)
+- Justyna Wiśniewska (j.wisniewska@nencki.edu.pl)
 
 
 ## Introduction
