@@ -96,7 +96,13 @@ The result narrows down the diagnosis from 'pediatric brain tumor' to 'medullobl
 ![geo_case1](https://user-images.githubusercontent.com/82537630/226114400-8c69f5d3-ca78-40ce-9053-576426e969e4.png)
 
 OOB error rate: 1.953819
-##Script for automatization
+### Case 4 (ID: TCGA-19-5959)
+
+![tumor](https://user-images.githubusercontent.com/103688816/226181437-01459903-2ca8-4f6e-9852-3e71dddad97c.png)
+Primary diagnosis: Glioblastoma Multiforme
+
+MethPed diagnosis: glioma/glioblastoma
+
 
 
 ## Discussion
