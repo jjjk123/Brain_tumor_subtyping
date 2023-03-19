@@ -53,12 +53,12 @@ for(x in fnames){
   data = dplyr::bind_rows(data, temp_data)
   i = i+1
 }
-data = tidyr::pivot_wider(data, names_from = id, values_from = V2)
+data = tidyr::pivot_wider(data, names_from = id, values_from = 'BetaValues')
 
 # Warning: If sample consists of a lot of NA, this is not a good way. (to do)
 # Dropping NA 
 if (is.null(probeMis(data))){
-  methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = FALSE)
+  methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = TRUE)
 }
 
 # Predictions
