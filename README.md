@@ -106,24 +106,31 @@ In the project, we validated an open-source software MethPed as a potentially us
 
 ## Script for automation
 
-We've create script for automation.
+We've create script for downloading TCGA datasets using GenomicDataCommons and forwarding example data sample to MethPed
+
+Customatization: (you can change all the desired values)
+```
+# Constants (values to customise):
+AGE <- 18
+NR_OF_TOTAL_SAMPLES_TO_DOWNLOAD<- 3
+PROJECT_ID <- 'TCGA-GBM'
+PLATFORM <- "illumina human methylation 450"
+```
 Steps:
 
 1. Downloading filtered samples from specific dataset.
 ```
 ge_manifest <- files() |>
-  filter( cases.project.project_id == 'TCGA-GBM') |>
+  filter( cases.project.project_id == 'PROJECT_ID') |>
   filter( type == 'methylation_beta_value' ) |>
-  filter(cases.demographic.days_to_birth < -60*365) |>
+  filter(cases.demographic.days_to_birth < -AGE*365) |>
+  filter(platform == PLATFORM) |>
 ```
-You can change your desired parameteres such as: project ID of other dataset or age (in example is set to 60).
-
 2. It prepares it to run MethPed classification. For now there is an example with one sample(file).
 3. It runs MethPed classification with proccesed sample
 ```
-library(MethPed)
 if (is.null(probeMis(data))){
-  methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = FALSE)
+  methped_predictions = MethPed(tidyr::drop_na(as.data.frame(data)), prob = TRUE)
 }
 ```
 ## Future ideas
